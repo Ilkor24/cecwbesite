@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 
+gem 'rubygems-update', '>= 3.3.22'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
@@ -48,7 +50,7 @@ gem "bootsnap", require: false
 gem 'bootstrap', '~> 5.1.3'
 gem 'sassc-rails'
 
-gem "geocoder"
+gem "bundler", ">= 2.5.6"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

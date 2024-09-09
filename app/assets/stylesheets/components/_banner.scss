@@ -41,9 +41,9 @@
 @media (max-width: 600px) {
   .grid-banner {
     display: block;
-    text-align: center; /* Centre le contenu textuel */
+    text-align: center;
   }
   .grid-banner > * {
-    margin: 0 auto 16px auto; /* Centre les éléments en bloc et ajoute un espace entre eux */
+    margin: 0 auto 16px auto;
   }
 }

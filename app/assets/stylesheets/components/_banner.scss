@@ -37,3 +37,13 @@
   color: rgb(91, 39, 52);
   opacity: .7;
 }
+
+@media (max-width: 600px) {
+  .grid-banner {
+    display: block;
+    text-align: center; /* Centre le contenu textuel */
+  }
+  .grid-banner > * {
+    margin: 0 auto 16px auto; /* Centre les éléments en bloc et ajoute un espace entre eux */
+  }
+}
